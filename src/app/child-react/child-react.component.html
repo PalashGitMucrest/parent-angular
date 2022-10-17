@@ -1,0 +1,9 @@
+<div class="d-flex justify-content-center">
+  <button class="btn btn-sm btn-info" type="button"
+  *ngIf="showPreviewButton" (click)="handlePreview()">{{isDisableUpdate ?
+    "profile activated": "profile disabled"}}</button>
+
+</div>
+<div class="fb-react">
+  <div id="mcq-container"></div>
+</div>
